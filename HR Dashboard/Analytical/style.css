@@ -1,0 +1,196 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: white !important;
+}
+.card{
+  width: 15rem !important;
+  border-radius: 5px !important;
+  border: #1b2942 thin !important;
+  margin-bottom: 3px;
+}
+.card-tile{
+  padding-left: 10px !important;
+  padding-bottom: 0rem !important;
+  margin-left:0rem !important;
+}
+.btn-style{
+  width: 15rem !important;
+  margin: 0.7rem;
+  border-radius: 5px !important;
+  background-color: #1b2942;
+  color: white;
+  border-color: #1b2942;
+}
+
+.btn-style:hover{
+  background-color: #0dcaf0;
+  color: #1b2942;
+  border-color:#1b2942;
+}
+.filter-buttons{
+  margin-bottom: 1rem ; 
+}
+.card-body{
+padding: 2px !important;
+}
+.fa-window-maximize{
+  position:absolute; 
+  right:5px; 
+  top:5px; 
+}
+
+
+#card-0,#card-1,#card-2,#card-2a,#card-2b,#card-2c,#card-3{
+  height: 8rem;
+  width: 14rem;
+  margin-bottom: 3px;
+  background-color: #1b2942;
+}
+
+#card-4,#card-5,#card-6,#card-7,#card-8,#card-9,#card-10,#card-11,#card-12,#card-13,#card-14,#card-15,#card-16,#card-17,#card-18{
+  height: 12rem;
+  width: 15rem !important;
+  margin-bottom: 5px;
+  
+}
+.side-card{
+  border: #1b2942 solid !important;
+  margin-right: 10px;
+}
+.side-bar{
+padding-left: 30px;
+padding-right: 50px;
+
+}
+.navbar{
+    height: 40px;
+    background-color: #1b2942 !important;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    background-color:  #1b2942 !important;
+    color: white;
+    height: 30px;
+  }
+@media (min-width: 375px) and (max-width: 667px){
+    .navbar{
+        height: 60px;
+}
+
+.chart-cards{
+  margin-top: 4rem !important;
+}
+
+#card-0,#card-1,#card-2,#card-2a,#card-2b,#card-2c,#card-3{
+  height: 8rem;
+  width: 22rem;
+  margin-bottom: 3px;
+  background-color: #1b2942;
+}
+#card-4,#card-5,#card-6,#card-7,#card-8,#card-9,#card-10,#card-11,#card-12,#card-13,#card-14,#card-15,#card-16,#card-17,#card-18{
+    height: 12rem;
+    width: 24rem;
+    margin-bottom: 5px;
+  }
+.btn-style{
+    width: 24rem  !important;
+    margin: 1rem;
+    border-radius: 5px !important;
+    background-color: #1b2942;
+    color: white;
+  }
+footer{
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    background-color:  #1b2942 !important;
+    color: white;
+    height: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+.navbar{
+            height: 60px;
+}
+.btn-style{
+  width: 24rem  !important;
+  margin: 1rem;
+  border-radius: 5px !important;
+  background-color: #1b2942;
+  color: white;
+}
+.chart-cards{
+  margin-top: 4rem !important;
+}
+
+#card-0,#card-1,#card-2,#card-2a,#card-2b,#card-2c,#card-3{
+  height: 8rem;
+  width: 22rem;
+  margin-bottom: 3px;
+  background-color: #1b2942;
+}
+
+#card-4,#card-5,#card-6,#card-7,#card-8,#card-9,#card-10,#card-11,#card-12,#card-13,#card-14,#card-15,#card-16,#card-17,#card-18{
+    height: 12rem;
+    width: 24rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    background-color:  #1b2942 !important;
+    color: white;
+    height: 30px;
+  }
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+    .navbar{
+        height: 60px;
+}
+.chart-cards{
+  margin-top: 4rem !important;
+}
+.btn-style{
+  width: 24rem  !important;
+  margin: 1rem;
+  border-radius: 5px !important;
+  background-color: #1b2942;
+  color: white;
+}
+#card-0,#card-1,#card-2,#card-2a,#card-2b,#card-2c,#card-3{
+  height: 8rem;
+  width: 22rem;
+  margin-bottom: 3px;
+  background-color: #1b2942;
+}
+#card-4,#card-5,#card-6,#card-7,#card-8,#card-9,#card-10,#card-11,#card-12,#card-13,#card-14,#card-15,#card-16,#card-17,#card-18{
+  height: 12rem;
+  width: 24rem;
+  margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    background-color: #1b2942 !important;
+    color: white;
+    height: 30px;
+  }
+}

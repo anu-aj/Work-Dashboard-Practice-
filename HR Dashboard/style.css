@@ -1,0 +1,237 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: white !important;
+}
+
+#filters{
+    position:absolute !important; 
+    right:10px; 
+    top:45px;
+    z-index: 2;
+}
+#minimal-statistics{
+    margin-top: 80px !important;
+}
+#dropdown{
+    border-radius: 4px;
+}
+#drop-group{
+    padding-top: 4px;
+}
+.chart-row,section{
+    background-color: white !important;
+}
+.btn-top{
+    margin-bottom: 2px;
+}
+#mybar,#myline{
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin-bottom:0.5rem !important;
+}
+.wht{
+    background-color: white !important;
+}
+.grey-bg{  
+    background-color: white !important;
+    margin-top: 35px;
+}
+.bg-card-head{
+    background-color: whitesmoke !important;
+}
+.card-content{
+    background-color: whitesmoke !important;
+    padding-top: 0px;
+    height: 100px;
+    border-radius: 5px;
+
+}
+
+.fa-window-maximize{
+    position:absolute; 
+    right:5px; 
+    top:5px; 
+}
+.navbar{
+    height: 40px;
+    background-color: #1b2942 !important;
+}
+
+#cardStyle{
+    max-width: 25rem; 
+    max-height: 45rem;
+    margin-bottom:0rem; 
+}
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    background-color:  #1b2942 !important;
+    color: white;
+    height: 30px;
+  }
+ 
+  .chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #myline,#mybar,#mypie1,#mypie2,#mynut{
+    height: 165px !important; 
+    width: 90%;
+    align-self: center;
+}
+
+.chart0,
+.chart2{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 150px !important;
+font-size: 20px;
+}
+
+@media (min-width: 375px) and (max-width: 667px){
+    .navbar{
+        height: 60px;
+    }
+    #filters{
+        position:absolute; 
+        right:10px; 
+        top:65px;
+    }
+    .chart{
+        width: 20rem;
+    } 
+    #minimal-statistics{
+        margin-top: 100px !important;
+    }
+    .chart0,
+    .chart2{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px !important ;
+    font-size: 20px;
+    }
+    footer {
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 2px;
+        background-color:  #1b2942 !important;
+        color: white;
+        height: 30px;
+      }
+      #mybar,#myline{
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar{
+        height: 60px;
+    }
+    #filters{
+        position:absolute; 
+        right:10px; 
+        top:65px;
+    }
+    #cardStyle{ 
+        max-height: 25rem;
+    }
+    
+    #mypie1,#mypie2,#mynut{
+        height: 155px; 
+        width: 90%;
+    }
+    #minimal-statistics{
+        margin-top: 100px !important;
+
+    }
+    .chart0,
+    .chart2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px !important ;
+    font-size: 20px;
+    }
+    footer {
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 2px;
+        background-color:  #1b2942 !important;
+        color: white;
+        height: 30px;
+      }
+      #mybar,#myline{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+    .navbar{
+        height: 60px;
+    }
+    #filters{
+        position:absolute; 
+        right:10px; 
+        top:65px;
+    }
+    #cardStyle{
+        max-width: 25rem; 
+        max-height: 45rem;
+    }
+    #minimal-statistics{
+        margin-top: 100px !important;
+    }
+    #mypie1,#mypie2,#mynut{
+        height: 165px !important ; 
+        width: 90%;
+    margin-left: 0px !important ;
+
+    }
+    .chart0,
+    .chart2,.chart3,.chart1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px !important ;
+    font-size: 20px;
+    }
+    footer {
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 2px;
+        background-color:  #1b2942 !important;
+        color: white;
+        height: 30px;
+      }
+      #mybar,#myline{
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
