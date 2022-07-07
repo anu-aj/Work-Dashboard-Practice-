@@ -1,2 +1,2 @@
-# Work-Dashboard-Practice-
+# Work-Dashboard
 Work-Dashboard[ Practice]
